@@ -1,0 +1,56 @@
+@media screen and (max-width:600px) {
+    .forest1{
+        height: 30px;
+        width: 30px;
+    }
+    .div1{
+        height: 150px;
+        width: 150px;
+        background-color:red;
+    }
+
+    .div2{
+        height: 150px;
+        width: 150px;
+        color: rgb(158, 223, 17);
+        background-color: green;
+    }
+    .div3{
+        width: 150px;
+        height: 150px;
+    background-image: url('mount.jpg');
+    background-size: cover;
+
+    }
+    .div4{
+        width: 150px;
+        height: 150px;
+        background-color: blue;
+
+    }
+    .forest2{
+height: 150px;
+width: 150px;
+filter: blur(5px);
+
+    }
+
+    .cont{
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: blanchedalmond;
+    }
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    li{
+        align-content: space-between;
+        list-style: none;
+        margin: 20px;
+        background-color: blueviolet;
+    }
+}

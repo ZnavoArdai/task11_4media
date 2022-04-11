@@ -1,0 +1,110 @@
+@media only screen and (max-width: 1000px){
+.im1{
+    height: 100px;
+    width:100px;
+
+}
+
+
+}
+@media only screen and (min-width:480px){
+.img{
+    height: 30px;
+    width: 30px;
+}
+}
+
+
+.div1 {
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    
+}
+
+
+@media screen and (min-width:600px) {
+    .div1 {
+        background-color: blue;
+    }
+    
+}
+@media screen and (max-width: 600px){
+    .div1 {
+        background-color: red;
+    }
+    
+}
+.div2{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+}
+
+@media  screen and (min-width:600px) {
+    .div2{
+        color: aliceblue;
+    }
+    
+}
+@media  screen and (max-width:600px) {
+    .div2{
+        color: yellow;
+    }
+    
+}
+.div3{
+    width: 150px;
+    height: 150px;
+    background-image: url('mount.jpg');
+    background-size: cover;
+
+}
+
+@media  screen and (min-width:600px) {
+    .div3{
+background-image: url('mount.jpg');    }
+    }
+    @media  screen and (max-width:600px) {
+        .div3{
+    background-image: url('forest.jpg');    }
+        }
+.div4{
+    width:150px;
+    height: 150px;
+    background-color: blue;
+}
+
+        @media  screen and (min-width:600px) {
+            .div4{
+                border-radius: 50%;
+            }
+            }
+            @media  screen and (max-width:600px) {
+                .div4{
+                    border-radius: 0%;
+              }
+            }
+
+            .tmona{
+                  width: 150px;
+                  height: 150px;
+                     }
+
+
+
+@media screen and (min-width:600px) {
+    .tmona{
+        filter: blur(5px);
+    }
+}
+@media screen and (max-width:600px) {
+    .tmona{
+        filter: grayscale(50);
+    }
+}
+
+              
+    
+          
+    

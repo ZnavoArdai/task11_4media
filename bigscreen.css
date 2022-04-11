@@ -1,0 +1,58 @@
+@media screen and (min-width:600px) {
+    .forest1{
+    height: 100px;
+    width: 100px;
+    }
+    .div1{
+        height: 150px;
+        width: 150px;
+        background-color:blue;
+
+    }
+    .div2{
+        height: 150px;
+        width: 150px;
+        color: rgb(250, 250, 248);
+        background-color: green;
+    }
+    .div3{
+        width: 150px;
+        height: 150px;
+    background-image: url('forest.jpg');
+    background-size: cover;
+
+    }
+    .div4{
+        width: 150px;
+        height: 150px;
+        background-color: blue;
+        border-radius: 50%;
+
+    }
+    .forest2{
+        display: block;
+        height: 150px;
+        width: 150px;
+        filter:grayscale(50);
+        
+            }
+            .cont{
+                margin-top: 100px;
+                height: 200px;
+                display: inline-block;
+                justify-content: center;
+                align-items: center;
+                background-color: blanchedalmond;
+            }
+            ul{
+            
+                justify-content: center;
+                align-items: center;
+            }
+            li{
+                align-content: space-between;
+                list-style: none;
+                margin: 20px;
+                background-color: blueviolet;
+            }
+        }
